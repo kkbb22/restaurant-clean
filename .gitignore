@@ -13,3 +13,5 @@ Git/
 out/ 
 Git/
 out/
+bin/
+obj/

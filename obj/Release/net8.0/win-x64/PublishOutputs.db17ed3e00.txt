@@ -1,7 +1,0 @@
-D:\XAMPP\htdocs\Restaurant\Restaurant\MyRestaurantApp\appsettings.Development.json
-D:\XAMPP\htdocs\Restaurant\Restaurant\MyRestaurantApp\appsettings.json
-D:\XAMPP\htdocs\Restaurant\Restaurant\MyRestaurantApp\railway.json
-D:\XAMPP\htdocs\Restaurant\Restaurant\MyRestaurantApp\Restaurant.pdb
-D:\XAMPP\htdocs\Restaurant\Restaurant\MyRestaurantApp\aspnetcorev2_inprocess.dll
-D:\XAMPP\htdocs\Restaurant\Restaurant\MyRestaurantApp\Microsoft.Data.SqlClient.SNI.dll
-D:\XAMPP\htdocs\Restaurant\Restaurant\MyRestaurantApp\Restaurant.exe

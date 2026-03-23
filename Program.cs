@@ -58,7 +58,10 @@ using (var scope = app.Services.CreateScope())
     try {
         var context = services.GetRequiredService<AppDbContext>();
         Console.WriteLine("⏳ Running Migrations...");
-        context.Database.Migrate(); 
+        if (!string.IsNullOrEmpty(dbUrl))
+    	    context.Database.EnsureCreated();
+	else
+            context.Database.Migrate();
         Console.WriteLine("✅ Database Migration Executed Successfully!");
     } catch (Exception ex) {
         Console.WriteLine($"❌ Migration Error: {ex.Message}");
